@@ -1,0 +1,109 @@
+.anime1c{
+        
+    position: relative;
+    /* width: 600px;
+    height: 600px; */
+    padding-left: 100px;
+    /* padding-top: 250px; */
+    /* padding-bottom: 20px; */
+    margin-top: 850px;
+    /* display: block; */
+    background-color: white;
+    width: fit-content;
+}
+@media(max-width:533px)
+{
+    .anime1c{
+        flex-wrap: wrap;
+    }
+}
+
+.foot{
+    position: relative;
+    display:flex;
+    padding-left: 100px;
+   padding-top: 50px;
+    background-color:#2F3132;
+    color: white;
+    padding-right: 50px;
+    /* font-size: 24px; */
+}
+@media screen and (width<533px){
+    .foot{
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+    }     
+    .rightside{
+        /* padding-left: 0; */
+        text-align: center;
+        padding-top: 10px!important;
+    }
+    .leftside{
+        text-align: center;
+
+    }
+    .foot-content{
+        text-align: center;
+    }
+}
+
+.leftside{
+    /* padding-left: 100px; */
+    /* margin-top: 200px; */
+    font-size: 30px;
+    line-height: 60px;
+}
+.rightside{
+    /* padding-left: 100px; */
+    /* padding-top: 60px; */
+
+}
+@media screen and (width>533px)
+{
+    .rightside{
+        padding-left: 100px;
+    }
+}
+.animedes{
+
+    height: 450px;
+    width: 450px;
+    
+    /* margin: 20px; */
+}
+@media(max-width:533px)
+{
+    .animedes{
+        width: 200px;
+        height: 175px;
+        align-items: center;
+    }
+    .gifs1{
+        width: 200px;
+    }
+    
+    
+}
+.outeranime{
+    margin-left: 150px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.animedes1{
+    
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* padding: 20px; */
+
+}
+
+.growvideo{
+    display: flex;
+    padding-right: 100px;
+}
+

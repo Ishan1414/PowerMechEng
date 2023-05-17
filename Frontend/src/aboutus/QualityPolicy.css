@@ -1,0 +1,98 @@
+.years-experience {
+  height: 340px !important;
+  width: 360px !important;
+  margin-left: 186px;
+  margin-right: 175px;
+}
+.text-experience {
+  font-family: 'Inter';
+  font-style: normal;
+font-size: 30px !important;
+padding-left: 20px;
+margin-top: 40px;
+width: fit-content;
+color:#09006F;
+text-align: center;
+margin-left: 285px;
+}
+.ExperienceGrid{
+  margin-top: 75px;
+}
+.content-exerience{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-top: 33px;
+  margin-left: 75px;
+  margin-right: 75px;
+  text-align: center;
+  height: fit-content;
+  color:#2F3132;
+}
+
+@media screen and (width<1100px){
+.years-experience{
+  margin-left: auto;
+  margin-right: auto;
+}    
+.content-exerience{
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-experience{
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+@media screen and (width<750px){
+.years-experience{
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px !important;
+  width: 200px !important;
+}       
+.content-exerience{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+}
+.text-experience{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px !important; 
+  text-align: center;
+}
+}
+@media screen and (width<600px){
+  .years-experience{
+    height: 140px !important;
+    Width: 140px !important;
+  }
+  .text-experience{
+    font-size: 16px !important;
+  }
+  .content-exerience{
+    font-size: 10px;
+  }
+  .ExperienceGrid{
+    margin-top: 40px;
+  }
+}
+@media screen and (width<400px) {
+  .ExperienceGrid{
+    margin-top: 33px;
+  }
+  .text-experience{
+    margin-top: 33px;
+  }
+}
+@media screen and (width<330px) {
+  .ExperienceGrid{
+    margin-top: 18px;
+  }
+  .text-experience{
+    margin-top: 18px;
+  }
+  .content-exerience{
+    padding-top: 18px;
+  }
+}

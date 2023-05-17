@@ -1,0 +1,187 @@
+.contact1{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.contact1-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    padding-right: 2rem; 
+}
+.contact1-heading h2{
+    color: #287ff9;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+    /* font-family: "Bai Jamjuree",sans-serif; */
+}
+.contact1-heading h2::before{
+    position: absolute;
+    top: 50%;
+    right: -80px;
+    content: '';
+    width: 70px;
+    height: 2px;
+    background: #287ff9;
+}
+.contact1-heading h2::after{
+    position: absolute;
+    top: 50%;
+    left: -80px;
+    content: '';
+    width: 70px;
+    height: 2px;
+    background: #287ff9;
+}
+.contact1-container{
+    max-width: 1170px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+}
+.contact1-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact1-column{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.contact1-widget{
+    margin-bottom: 40px;
+    padding-right: 10px;
+}
+.contact1-widget-item{
+    overflow: hidden;
+    margin-bottom: 40px;   
+}
+.contact1-icon{
+    height: 60px;
+    width: 60px;
+    background: #287ff9;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 30px;
+    float: left;
+}
+.contact1-inner-icon{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 3px;
+}
+.contact1-text{
+    overflow: hidden;
+}
+.contact1-text h5{
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.contact1-text p{
+    font-size: 16px;
+    color: #111;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 15px 0;
+}
+.contact1-text a{
+    font-size: 16px;
+    color: #111;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 15px 0;
+}
+.contact1-form{
+    text-align: center;
+    margin-bottom: 40px;
+}
+form{
+    display: block;
+    margin-top: 0em;
+}
+form input{
+    height: 46px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #111;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    transition: all, .3s;
+}
+form textarea{
+    height: 110px;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 12px;
+    font-size: 15px;
+    color: #111;
+    border: 1px solid #e1e1e1;
+    resize: none;
+    margin-bottom: 9px;
+    border-radius: 4px;
+    transition: all, .3s;
+}
+form button{
+    width: 100%;
+    cursor: pointer;
+}
+.site-btn{
+    border: none;
+    display: inline-block;
+    background: #1a0166;
+    color: #efebeb;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 12px 40px 10px;
+}
+.map-column{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.contact-map iframe{
+    width: 100%;
+}
+@media screen and (max-width:1200px){
+    .contact1-container{
+        max-width: 960px;
+    }
+}
+@media screen and (max-width:990px){
+    .contact1-container{
+        max-width: 720px;
+    }
+}
+@media screen and (max-width:768px){
+    .contact1-container{
+        max-width: 540px;
+    }
+    .contact1-column{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    .contact1-heading{
+        padding-right: 0;
+    }
+    .contact1-heading h2{
+        font-size: 22px;
+    }
+    .contact1-heading h2::before{
+        right: -60px;
+        width: 50px;
+    }
+    .contact1-heading h2::after{
+        left: -60px;
+        width: 50px;
+    }
+}
