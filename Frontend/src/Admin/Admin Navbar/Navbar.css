@@ -1,0 +1,30 @@
+
+.logo-img{
+    width: 120px;
+    height: 120px; 
+}
+.navbar-links{
+    color: #fff;
+    
+}
+.navbar{
+    height: 63px;
+    background: black;
+    z-index: 100;
+}
+.icon1{
+    color: #fff;
+}
+nav.sticky{
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.6);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.ulsticky{
+    position: fixed;
+}
+.dropmenu{
+    z-index: 9999;
+}

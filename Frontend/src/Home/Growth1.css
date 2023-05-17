@@ -1,0 +1,9 @@
+.growth-container{
+    display: flex;
+}
+@media(max-width:500px)
+{
+    .growth-container{
+        flex-wrap: wrap;
+    }
+}

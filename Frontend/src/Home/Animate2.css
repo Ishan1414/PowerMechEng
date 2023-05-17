@@ -1,0 +1,53 @@
+.animation-container{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    margin-top: 900px;
+    /* width: 90%; */
+}
+@media screen and (width<500px)
+{
+    .animation-container{
+        flex-wrap: wrap;
+        overflow-x: hidden;
+        margin-top: 420px !important;
+    }
+    
+    
+}
+@media screen and (width<1050px)
+{
+    .animation-container{
+        /* flex-wrap: wrap; */
+       
+        margin-top: 750px !important;
+    }
+    
+    
+}
+@media screen and (width<800px) {
+    .animation-container{
+        flex-wrap: wrap;
+        margin-top: 400px !important;
+    }
+    .space-anime{
+        width: 0px !important;
+    }
+    
+}
+@media screen and(width<800px)
+{
+    .animation-container{
+        margin-top:300px !important;
+    }
+}
+
+.space-anime{
+    width: 200px;
+}
+
+@media(min-width: 1700px){
+    .animation-container{
+        margin-top: 1120px;
+    }
+}

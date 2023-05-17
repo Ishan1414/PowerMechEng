@@ -1,0 +1,15 @@
+.categoryh1 h1{
+    padding-top: 30px;
+    text-align: left;
+    height: fit-content;
+    padding-left: 50px;
+    padding-right: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+}
+/* .card-text{
+    text-overflow:clip;
+} */
